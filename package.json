@@ -1,0 +1,14 @@
+{
+  "name": "eslint-config-base",
+  "version": "1.0.0",
+  "description": "Index Exchange's base repository of ESLint runtime configuration files.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/indexexchange/eslint-config-base.git"
+  },
+  "peerDependencies": {
+    "eslint": ">= 4.13.1"
+  },
+  "author": "Index Exchange",
+  "license": "MIT"
+}
