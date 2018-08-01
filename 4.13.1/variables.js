@@ -1,29 +1,29 @@
 module.exports = {
-    "rules": {
+    'rules': {
         // require or disallow initialization in variable declarations
         //
-        "init-declarations": ["error", "always"],
+        'init-declarations': ['error', 'always'],
 
         // disallow `catch` clause parameters from shadowing variables in the outer
         // scope
         //
-        "no-catch-shadow": ["off"],
+        'no-catch-shadow': ['off'],
 
         // disallow deleting variables
         //
-        "no-delete-var": ["error"],
+        'no-delete-var': ['error'],
 
         // disallow labels that share a name with a variable
         //
-        "no-label-var": ["off"],
+        'no-label-var': ['off'],
 
         // disallow specified global variables
         //
-        "no-restricted-globals": ["off"],
+        'no-restricted-globals': ['off'],
 
         // disallow identifiers from shadowing restricted names
         //
-        "no-shadow-restricted-names": ["error"],
+        'no-shadow-restricted-names': ['error'],
 
         // disallow variable declarations from shadowing variables declared in the outer
         // scope
@@ -55,27 +55,30 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-shadow": ["error", {
-            "builtinGlobals": true,
-            "hoist": "all",
-            "allow": [
-                "callback",
-                "cb",
-                "done",
-                "e",
-                "err",
-                "error",
-                "ex",
-                "reject",
-                "resolve"
-            ]
-        }],
+        'no-shadow': [
+            'error',
+            {
+                'builtinGlobals': true,
+                'hoist': 'all',
+                'allow': [
+                    'callback',
+                    'cb',
+                    'done',
+                    'e',
+                    'err',
+                    'error',
+                    'ex',
+                    'reject',
+                    'resolve'
+                ]
+            }
+        ],
 
         // disallow initializing variables to `undefined`
         //
         // [Has Fixer]
         //
-        "no-undef-init": ["error"],
+        'no-undef-init': ['error'],
 
         // disallow the use of undeclared variables unless mentioned in `/*global */`
         // comments
@@ -94,13 +97,16 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-undef": ["error", {
-            "typeof": true
-        }],
+        'no-undef': [
+            'error',
+            {
+                'typeof': true
+            }
+        ],
 
         // disallow the use of `undefined` as an identifier
         //
-        "no-undefined": ["error"],
+        'no-undefined': ['error'],
 
         // disallow unused variables
         //
@@ -155,7 +161,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-unused-vars": ["error"],
+        'no-unused-vars': ['error'],
 
         // disallow the use of variables before they are defined
         //
@@ -188,6 +194,6 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-use-before-define": ["error"]
+        'no-use-before-define': ['error']
     }
 };

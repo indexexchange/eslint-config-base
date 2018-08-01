@@ -1,5 +1,5 @@
 module.exports = {
-    "rules": {
+    'rules': {
         // enforce linebreaks after opening and before closing array brackets
         //
         // [Has Fixer]
@@ -36,10 +36,13 @@ module.exports = {
         //         }
         //     ]
         //
-        "array-bracket-newline": ["error", {
-            "multiline": true,
-            "minItems": 3
-        }],
+        'array-bracket-newline': [
+            'error',
+            {
+                'multiline': true,
+                'minItems': 3
+            }
+        ],
 
         // enforce consistent spacing inside array brackets
         //
@@ -71,7 +74,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "array-bracket-spacing": ["error"],
+        'array-bracket-spacing': ['error'],
 
         // enforce line breaks after each array element
         //
@@ -108,10 +111,13 @@ module.exports = {
         //         }
         //     ]
         //
-        "array-element-newline": ["error", {
-            "multiline": true,
-            "minItems": 3
-        }],
+        'array-element-newline': [
+            'error',
+            {
+                'multiline': true,
+                'minItems': 3
+            }
+        ],
 
         // disallow or enforce spaces inside of blocks after opening block and before
         // closing block
@@ -129,7 +135,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "block-spacing": ["error"],
+        'block-spacing': ['error'],
 
         // enforce consistent brace style for blocks
         //
@@ -156,7 +162,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "brace-style": ["error"],
+        'brace-style': ['error'],
 
         // enforce camelcase naming convention
         //
@@ -177,7 +183,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "camelcase": ["error"],
+        'camelcase': ['error'],
 
         // enforce or disallow capitalization of the first letter of a comment
         //
@@ -249,13 +255,13 @@ module.exports = {
         //         }
         //     ]
         //
-        "capitalized-comments": ["error", "always"],
+        'capitalized-comments': ['error', 'always'],
 
         // require or disallow trailing commas
         //
         // [Has Fixer]
         //
-        "comma-dangle": ["error"],
+        'comma-dangle': ['error'],
 
         // enforce consistent spacing before and after commas
         //
@@ -278,7 +284,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "comma-spacing": ["error"],
+        'comma-spacing': ['error'],
 
         // enforce consistent comma style
         //
@@ -307,7 +313,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "comma-style": ["error"],
+        'comma-style': ['error'],
 
         // enforce consistent spacing inside computed property brackets
         //
@@ -324,11 +330,11 @@ module.exports = {
         //         }
         //     ]
         //
-        "computed-property-spacing": ["error"],
+        'computed-property-spacing': ['error'],
 
         // enforce consistent naming when capturing the current execution context
         //
-        "consistent-this": ["error"],
+        'consistent-this': ['error'],
 
         // require or disallow newline at the end of files
         //
@@ -347,19 +353,19 @@ module.exports = {
         //         }
         //     ]
         //
-        "eol-last": ["error"],
+        'eol-last': ['error'],
 
         // require or disallow spacing between function identifiers and their
         // invocations
         //
         // [Has Fixer]
         //
-        "func-call-spacing": ["error"],
+        'func-call-spacing': ['error'],
 
         // require function names to match the name of the variable or property to which
         // they are assigned
         //
-        "func-name-matching": ["off"],
+        'func-name-matching': ['off'],
 
         // require or disallow named `function` expressions
         //
@@ -375,7 +381,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "func-names": ["error", "never"],
+        'func-names': ['error', 'never'],
 
         // enforce the consistent use of either `function` declarations or expressions
         //
@@ -399,10 +405,11 @@ module.exports = {
         //         }
         //     ]
         //
-        "func-style": [
-            "error",
-            "declaration", {
-                "allowArrowFunctions": true
+        'func-style': [
+            'error',
+            'declaration',
+            {
+                'allowArrowFunctions': true
             }
         ],
 
@@ -437,11 +444,11 @@ module.exports = {
         //         }
         //     ]
         //
-        "function-paren-newline": ["error", "consistent"],
+        'function-paren-newline': ['error', 'consistent'],
 
         // disallow specified identifiers
         //
-        "id-blacklist": ["off"],
+        'id-blacklist': ['off'],
 
         // enforce minimum and maximum identifier lengths
         //
@@ -475,7 +482,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "id-length": ["off"],
+        'id-length': ['off'],
 
         // require identifiers to match a specified regular expression
         //
@@ -495,7 +502,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "id-match": ["off"],
+        'id-match': ['off'],
 
         // enforce the location of arrow function bodies
         //
@@ -512,7 +519,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "implicit-arrow-linebreak": ["error"],
+        'implicit-arrow-linebreak': ['error'],
 
         // enforce consistent indentation
         //
@@ -711,9 +718,13 @@ module.exports = {
         //         }
         //     ]
         //
-        "indent": ["error", 4, {
-            "SwitchCase": 1
-        }],
+        'indent': [
+            'error',
+            4,
+            {
+                'SwitchCase': 1
+            }
+        ],
 
         // enforce the consistent use of either double or single quotes in JSX
         // attributes
@@ -731,7 +742,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "jsx-quotes": ["off"],
+        'jsx-quotes': ['off'],
 
         // enforce consistent spacing between keys and values in object literal
         // properties
@@ -941,7 +952,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "key-spacing": ["error"],
+        'key-spacing': ['error'],
 
         // enforce consistent spacing before and after keywords
         //
@@ -1786,7 +1797,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "keyword-spacing": ["error"],
+        'keyword-spacing': ['error'],
 
         // enforce position of line comments
         //
@@ -1826,7 +1837,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "line-comment-position": ["error"],
+        'line-comment-position': ['error'],
 
         // enforce consistent linebreak style
         //
@@ -1843,7 +1854,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "linebreak-style": ["error"],
+        'linebreak-style': ['error'],
 
         // require empty lines around comments
         //
@@ -1902,21 +1913,24 @@ module.exports = {
         //         }
         //     ]
         //
-        "lines-around-comment": ["error", {
-            "beforeBlockComment": true,
-            "afterBlockComment": false,
-            "beforeLineComment": true,
-            "afterLineComment": false,
-            "allowBlockStart": true,
-            "allowBlockEnd": false,
-            "allowObjectStart": true,
-            "allowObjectEnd": false,
-            "allowArrayStart": true,
-            "allowArrayEnd": false,
-            "allowClassStart": true,
-            "allowClassEnd": false,
-            "ignorePattern": "\\?"
-        }],
+        'lines-around-comment': [
+            'error',
+            {
+                'beforeBlockComment': true,
+                'afterBlockComment': false,
+                'beforeLineComment': true,
+                'afterLineComment': false,
+                'allowBlockStart': true,
+                'allowBlockEnd': false,
+                'allowObjectStart': true,
+                'allowObjectEnd': false,
+                'allowArrayStart': true,
+                'allowArrayEnd': false,
+                'allowClassStart': true,
+                'allowClassEnd': false,
+                'ignorePattern': '\\?'
+            }
+        ],
 
         // require or disallow an empty line between class members
         //
@@ -1942,7 +1956,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "lines-between-class-members": ["error"],
+        'lines-between-class-members': ['error'],
 
         // enforce a maximum depth that blocks can be nested
         //
@@ -1973,9 +1987,12 @@ module.exports = {
         //         }
         //     ]
         //
-        "max-depth": ["error", {
-            "max": 5
-        }],
+        'max-depth': [
+            'error',
+            {
+                'max': 5
+            }
+        ],
 
         // enforce a maximum line length
         //
@@ -2117,12 +2134,15 @@ module.exports = {
         //         }
         //     ]
         //
-        "max-len": ["error", {
-            "code": 100,
-            "ignoreUrls": true,
-            "ignoreTemplateLiterals": true,
-            "ignoreRegExpLiterals": true
-        }],
+        'max-len': [
+            'error',
+            {
+                'code': 100,
+                'ignoreUrls': true,
+                'ignoreTemplateLiterals': true,
+                'ignoreRegExpLiterals': true
+            }
+        ],
 
         // enforce a maximum number of lines per file
         //
@@ -2155,7 +2175,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "max-lines": ["off"],
+        'max-lines': ['off'],
 
         // enforce a maximum depth that callbacks can be nested
         //
@@ -2186,9 +2206,12 @@ module.exports = {
         //         }
         //     ]
         //
-        "max-nested-callbacks": ["error", {
-            "max": 3
-        }],
+        'max-nested-callbacks': [
+            'error',
+            {
+                'max': 3
+            }
+        ],
 
         // enforce a maximum number of parameters in function definitions
         //
@@ -2219,9 +2242,12 @@ module.exports = {
         //         }
         //     ]
         //
-        "max-params": ["error", {
-            "max": 5
-        }],
+        'max-params': [
+            'error',
+            {
+                'max': 5
+            }
+        ],
 
         // enforce a maximum number of statements allowed per line
         //
@@ -2240,7 +2266,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "max-statements-per-line": ["error"],
+        'max-statements-per-line': ['error'],
 
         // enforce a maximum number of statements allowed in function blocks
         //
@@ -2280,7 +2306,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "max-statements": ["off"],
+        'max-statements': ['off'],
 
         // enforce a particular style for multiline comments
         //
@@ -2298,7 +2324,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "multiline-comment-style": ["error", "starred-block"],
+        'multiline-comment-style': ['error', 'starred-block'],
 
         // enforce newlines between operands of ternary expressions
         //
@@ -2314,7 +2340,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "multiline-ternary": ["error", "never"],
+        'multiline-ternary': ['error', 'never'],
 
         // require constructor names to begin with a capital letter
         //
@@ -2356,13 +2382,13 @@ module.exports = {
         //         }
         //     ]
         //
-        "new-cap": ["error"],
+        'new-cap': ['error'],
 
         // require parentheses when invoking a constructor with no arguments
         //
         // [Has Fixer]
         //
-        "new-parens": ["error"],
+        'new-parens': ['error'],
 
         // require a newline after each call in a method chain
         //
@@ -2384,13 +2410,16 @@ module.exports = {
         //         }
         //     ]
         //
-        "newline-per-chained-call": ["error", {
-            "ignoreChainWithDepth": 1
-        }],
+        'newline-per-chained-call': [
+            'error',
+            {
+                'ignoreChainWithDepth': 1
+            }
+        ],
 
         // disallow `Array` constructors
         //
-        "no-array-constructor": ["error"],
+        'no-array-constructor': ['error'],
 
         // disallow bitwise operators
         //
@@ -2429,21 +2458,21 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-bitwise": ["error"],
+        'no-bitwise': ['error'],
 
         // disallow `continue` statements
         //
-        "no-continue": ["off"],
+        'no-continue': ['off'],
 
         // disallow inline comments after code
         //
-        "no-inline-comments": ["error"],
+        'no-inline-comments': ['error'],
 
         // disallow `if` statements as the only statement in `else` blocks
         //
         // [Has Fixer]
         //
-        "no-lonely-if": ["off"],
+        'no-lonely-if': ['off'],
 
         // disallow mixed binary operators
         //
@@ -2499,7 +2528,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-mixed-operators": ["error"],
+        'no-mixed-operators': ['error'],
 
         // disallow mixed spaces and tabs for indentation
         //
@@ -2515,11 +2544,11 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-mixed-spaces-and-tabs": ["error"],
+        'no-mixed-spaces-and-tabs': ['error'],
 
         // disallow use of chained assignment expressions
         //
-        "no-multi-assign": ["error"],
+        'no-multi-assign': ['error'],
 
         // disallow multiple empty lines
         //
@@ -2551,23 +2580,26 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-multiple-empty-lines": ["error", {
-            "max": 1,
-            "maxBOF": 0,
-            "maxEOF": 0
-        }],
+        'no-multiple-empty-lines': [
+            'error',
+            {
+                'max': 1,
+                'maxBOF': 0,
+                'maxEOF': 0
+            }
+        ],
 
         // disallow negated conditions
         //
-        "no-negated-condition": ["off"],
+        'no-negated-condition': ['off'],
 
         // disallow nested ternary expressions
         //
-        "no-nested-ternary": ["error"],
+        'no-nested-ternary': ['error'],
 
         // disallow `Object` constructors
         //
-        "no-new-object": ["error"],
+        'no-new-object': ['error'],
 
         // disallow the unary operators `++` and `--`
         //
@@ -2585,19 +2617,19 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-plusplus": ["off"],
+        'no-plusplus': ['off'],
 
         // disallow specified syntax
         //
-        "no-restricted-syntax": ["off"],
+        'no-restricted-syntax': ['off'],
 
         // disallow all tabs
         //
-        "no-tabs": ["error"],
+        'no-tabs': ['error'],
 
         // disallow ternary operators
         //
-        "no-ternary": ["off"],
+        'no-ternary': ['off'],
 
         // disallow trailing whitespace at the end of lines
         //
@@ -2620,7 +2652,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-trailing-spaces": ["error"],
+        'no-trailing-spaces': ['error'],
 
         // disallow dangling underscores in identifiers
         //
@@ -2650,7 +2682,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-underscore-dangle": ["off"],
+        'no-underscore-dangle': ['off'],
 
         // disallow ternary operators when simpler alternatives exist
         //
@@ -2670,13 +2702,13 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-unneeded-ternary": ["error"],
+        'no-unneeded-ternary': ['error'],
 
         // disallow whitespace before properties
         //
         // [Has Fixer]
         //
-        "no-whitespace-before-property": ["error"],
+        'no-whitespace-before-property': ['error'],
 
         // enforce the location of single-line statements
         //
@@ -2739,7 +2771,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "nonblock-statement-body-position": ["off"],
+        'nonblock-statement-body-position': ['off'],
 
         // enforce consistent line breaks inside braces
         //
@@ -2842,14 +2874,17 @@ module.exports = {
         //         }
         //     ]
         //
-        "object-curly-newline": ["error", {
-            "ObjectExpression": {
-                "multiline": true,
-                "minProperties": 3,
-                "consistent": true
-            },
-            "ObjectPattern": "never"
-        }],
+        'object-curly-newline': [
+            'error',
+            {
+                'ObjectExpression': {
+                    'multiline': true,
+                    'minProperties': 3,
+                    'consistent': true
+                },
+                'ObjectPattern': 'never'
+            }
+        ],
 
         // enforce consistent spacing inside braces
         //
@@ -2878,7 +2913,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "object-curly-spacing": ["error", "always"],
+        'object-curly-spacing': ['error', 'always'],
 
         // enforce placing object properties on separate lines
         //
@@ -2898,7 +2933,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "object-property-newline": ["error"],
+        'object-property-newline': ['error'],
 
         // require or disallow newlines around variable declarations
         //
@@ -2915,7 +2950,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "one-var-declaration-per-line": ["error", "always"],
+        'one-var-declaration-per-line': ['error', 'always'],
 
         // enforce variables to be declared either together or separately in functions
         //
@@ -2976,7 +3011,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "one-var": ["error", "never"],
+        'one-var': ['error', 'never'],
 
         // require or disallow assignment operator shorthand where possible
         //
@@ -2993,7 +3028,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "operator-assignment": ["error"],
+        'operator-assignment': ['error'],
 
         // enforce consistent linebreak style for operators
         //
@@ -3032,7 +3067,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "operator-linebreak": ["error", "before"],
+        'operator-linebreak': ['error', 'before'],
 
         // require or disallow padding within blocks
         //
@@ -3078,81 +3113,102 @@ module.exports = {
         //         }
         //     ]
         //
-        "padded-blocks": ["error", "never"],
+        'padded-blocks': ['error', 'never'],
 
         // require or disallow padding lines between statements
         //
         // [Has Fixer]
         //
-        "padding-line-between-statements": [
-            "error", {
-                "blankLine": "always",
-                "prev": "*",
-                "next": ["return", "break", "continue"]
-            }, {
-                "blankLine": "always",
-                "prev": "block-like",
-                "next": "block-like"
-            }, {
-                "blankLine": "always",
-                "prev": "*",
-                "next": "directive"
-            }, {
-                "blankLine": "always",
-                "prev": "directive",
-                "next": "*"
-            }, {
-                "blankLine": "never",
-                "prev": "directive",
-                "next": "directive"
-            }, {
-                "blankLine": "always",
-                "prev": "*",
-                "next": "cjs-import"
-            }, {
-                "blankLine": "always",
-                "prev": "cjs-import",
-                "next": "*"
-            }, {
-                "blankLine": "any",
-                "prev": "cjs-import",
-                "next": "cjs-import"
-            }, {
-                "blankLine": "always",
-                "prev": "*",
-                "next": "cjs-export"
-            }, {
-                "blankLine": "always",
-                "prev": "cjs-export",
-                "next": "*"
-            }, {
-                "blankLine": "any",
-                "prev": "cjs-export",
-                "next": "cjs-export"
-            }, {
-                "blankLine": "always",
-                "prev": "*",
-                "next": "import"
-            }, {
-                "blankLine": "always",
-                "prev": "import",
-                "next": "*"
-            }, {
-                "blankLine": "any",
-                "prev": "import",
-                "next": "import"
-            }, {
-                "blankLine": "always",
-                "prev": "*",
-                "next": "export"
-            }, {
-                "blankLine": "always",
-                "prev": "export",
-                "next": "*"
-            }, {
-                "blankLine": "any",
-                "prev": "export",
-                "next": "export"
+        'padding-line-between-statements': [
+            'error',
+            {
+                'blankLine': 'always',
+                'prev': '*',
+                'next': [
+                    'return',
+                    'break',
+                    'continue'
+                ]
+            },
+            {
+                'blankLine': 'always',
+                'prev': 'block-like',
+                'next': 'block-like'
+            },
+            {
+                'blankLine': 'always',
+                'prev': '*',
+                'next': 'directive'
+            },
+            {
+                'blankLine': 'always',
+                'prev': 'directive',
+                'next': '*'
+            },
+            {
+                'blankLine': 'never',
+                'prev': 'directive',
+                'next': 'directive'
+            },
+            {
+                'blankLine': 'always',
+                'prev': '*',
+                'next': 'cjs-import'
+            },
+            {
+                'blankLine': 'always',
+                'prev': 'cjs-import',
+                'next': '*'
+            },
+            {
+                'blankLine': 'any',
+                'prev': 'cjs-import',
+                'next': 'cjs-import'
+            },
+            {
+                'blankLine': 'always',
+                'prev': '*',
+                'next': 'cjs-export'
+            },
+            {
+                'blankLine': 'always',
+                'prev': 'cjs-export',
+                'next': '*'
+            },
+            {
+                'blankLine': 'any',
+                'prev': 'cjs-export',
+                'next': 'cjs-export'
+            },
+            {
+                'blankLine': 'always',
+                'prev': '*',
+                'next': 'import'
+            },
+            {
+                'blankLine': 'always',
+                'prev': 'import',
+                'next': '*'
+            },
+            {
+                'blankLine': 'any',
+                'prev': 'import',
+                'next': 'import'
+            },
+            {
+                'blankLine': 'always',
+                'prev': '*',
+                'next': 'export'
+            },
+            {
+                'blankLine': 'always',
+                'prev': 'export',
+                'next': '*'
+            },
+            {
+                'blankLine': 'any',
+                'prev': 'export',
+                'next': 'export'
             }
         ],
 
@@ -3160,7 +3216,7 @@ module.exports = {
         //
         // [Has Fixer]
         //
-        "quote-props": ["error", "as-needed"],
+        'quote-props': ['error', 'as-needed'],
 
         // enforce the consistent use of either backticks, double, or single quotes
         //
@@ -3199,9 +3255,13 @@ module.exports = {
         //         }
         //     ]
         //
-        "quotes": ["error", "single", {
-            "allowTemplateLiterals": true
-        }],
+        'quotes': [
+            'error',
+            'single',
+            {
+                'allowTemplateLiterals': true
+            }
+        ],
 
         // require JSDoc comments
         //
@@ -3237,15 +3297,18 @@ module.exports = {
         //         }
         //     ]
         //
-        "require-jsdoc": ["error", {
-            "require": {
-                "FunctionDeclaration": true,
-                "MethodDefinition": true,
-                "ClassDeclaration": true,
-                "ArrowFunctionExpression": false,
-                "FunctionExpression": false
+        'require-jsdoc': [
+            'error',
+            {
+                'require': {
+                    'FunctionDeclaration': true,
+                    'MethodDefinition': true,
+                    'ClassDeclaration': true,
+                    'ArrowFunctionExpression': false,
+                    'FunctionExpression': false
+                }
             }
-        }],
+        ],
 
         // enforce consistent spacing before and after semicolons
         //
@@ -3268,7 +3331,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "semi-spacing": ["error"],
+        'semi-spacing': ['error'],
 
         // enforce location of semicolons
         //
@@ -3285,13 +3348,13 @@ module.exports = {
         //         }
         //     ]
         //
-        "semi-style": ["error"],
+        'semi-style': ['error'],
 
         // require or disallow semicolons instead of ASI
         //
         // [Has Fixer]
         //
-        "semi": ["error"],
+        'semi': ['error'],
 
         // require object keys to be sorted
         //
@@ -3318,7 +3381,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "sort-keys": ["off"],
+        'sort-keys': ['off'],
 
         // require variables within the same declaration block to be sorted
         //
@@ -3338,7 +3401,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "sort-vars": ["off"],
+        'sort-vars': ['off'],
 
         // enforce consistent spacing before blocks
         //
@@ -3383,7 +3446,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "space-before-blocks": ["error"],
+        'space-before-blocks': ['error'],
 
         // enforce consistent spacing before `function` definition opening parenthesis
         //
@@ -3431,11 +3494,14 @@ module.exports = {
         //         }
         //     ]
         //
-        "space-before-function-paren": ["error", {
-            "anonymous": "always",
-            "named": "never",
-            "asyncArrow": "always"
-        }],
+        'space-before-function-paren': [
+            'error',
+            {
+                'anonymous': 'always',
+                'named': 'never',
+                'asyncArrow': 'always'
+            }
+        ],
 
         // enforce consistent spacing inside parentheses
         //
@@ -3470,7 +3536,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "space-in-parens": ["error"],
+        'space-in-parens': ['error'],
 
         // require spacing around infix operators
         //
@@ -3490,7 +3556,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "space-infix-ops": ["error"],
+        'space-infix-ops': ['error'],
 
         // enforce consistent spacing before or after unary operators
         //
@@ -3519,10 +3585,13 @@ module.exports = {
         //         }
         //     ]
         //
-        "space-unary-ops": ["error", {
-            "words": true,
-            "nonwords": false
-        }],
+        'space-unary-ops': [
+            'error',
+            {
+                'words': true,
+                'nonwords': false
+            }
+        ],
 
         // enforce consistent spacing after the `//` or `/*` in a comment
         //
@@ -3596,15 +3665,19 @@ module.exports = {
         //         }
         //     ]
         //
-        "spaced-comment": ["error", "always", {
-            "line": {
-                "markers": ["?"]
-            },
-            "block": {
-                "markers": ["*"],
-                "balanced": true
+        'spaced-comment': [
+            'error',
+            'always',
+            {
+                'line': {
+                    'markers': ['?']
+                },
+                'block': {
+                    'markers': ['*'],
+                    'balanced': true
+                }
             }
-        }],
+        ],
 
         // enforce spacing around colons of switch statements
         //
@@ -3627,7 +3700,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "switch-colon-spacing": ["error"],
+        'switch-colon-spacing': ['error'],
 
         // require or disallow spacing between template tags and their literals
         //
@@ -3644,7 +3717,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "template-tag-spacing": ["error"],
+        'template-tag-spacing': ['error'],
 
         // require or disallow Unicode byte order mark (BOM)
         //
@@ -3661,12 +3734,12 @@ module.exports = {
         //         }
         //     ]
         //
-        "unicode-bom": ["error"],
+        'unicode-bom': ['error'],
 
         // require parenthesis around regex literals
         //
         // [Has Fixer]
         //
-        "wrap-regex": ["error"]
+        'wrap-regex': ['error']
     }
 };

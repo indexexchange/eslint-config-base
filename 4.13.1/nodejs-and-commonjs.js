@@ -1,5 +1,5 @@
 module.exports = {
-    "rules": {
+    'rules': {
         // require `return` statements after callbacks
         //
         // Schema:
@@ -13,11 +13,11 @@ module.exports = {
         //         }
         //     ]
         //
-        "callback-return": ["error"],
+        'callback-return': ['error'],
 
         // require `require()` calls to be placed at top-level module scope
         //
-        "global-require": ["error"],
+        'global-require': ['error'],
 
         // require error handling in callbacks
         //
@@ -29,11 +29,11 @@ module.exports = {
         //         }
         //     ]
         //
-        "handle-callback-err": ["error"],
+        'handle-callback-err': ['error'],
 
         // disallow use of the Buffer() constructor
         //
-        "no-buffer-constructor": ["error"],
+        'no-buffer-constructor': ['error'],
 
         // disallow `require` calls to be mixed with regular variable declarations
         //
@@ -61,30 +61,33 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-mixed-requires": ["error", {
-            "grouping": true,
-            "allowCall": true
-        }],
+        'no-mixed-requires': [
+            'error',
+            {
+                'grouping': true,
+                'allowCall': true
+            }
+        ],
 
         // disallow `new` operators with calls to `require`
         //
-        "no-new-require": ["error"],
+        'no-new-require': ['error'],
 
         // disallow string concatenation with `__dirname` and `__filename`
         //
-        "no-path-concat": ["error"],
+        'no-path-concat': ['error'],
 
         // disallow the use of `process.env`
         //
-        "no-process-env": ["off"],
+        'no-process-env': ['off'],
 
         // disallow the use of `process.exit()`
         //
-        "no-process-exit": ["error"],
+        'no-process-exit': ['error'],
 
         // disallow specified modules when loaded by `require`
         //
-        "no-restricted-modules": ["off"],
+        'no-restricted-modules': ['off'],
 
         // disallow synchronous methods
         //
@@ -102,6 +105,6 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-sync": ["error"]
+        'no-sync': ['error']
     }
 };

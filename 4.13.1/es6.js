@@ -1,10 +1,10 @@
 module.exports = {
-    "rules": {
+    'rules': {
         // require braces around arrow function bodies
         //
         // [Has Fixer]
         //
-        "arrow-body-style": ["error", "always"],
+        'arrow-body-style': ['error', 'always'],
 
         // require parentheses around arrow function arguments
         //
@@ -30,7 +30,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "arrow-parens": ["error"],
+        'arrow-parens': ['error'],
 
         // enforce consistent spacing before and after the arrow in arrow functions
         //
@@ -53,11 +53,11 @@ module.exports = {
         //         }
         //     ]
         //
-        "arrow-spacing": ["error"],
+        'arrow-spacing': ['error'],
 
         // require `super()` calls in constructors
         //
-        "constructor-super": ["error"],
+        'constructor-super': ['error'],
 
         // enforce consistent spacing around `*` operators in generator functions
         //
@@ -164,11 +164,11 @@ module.exports = {
         //         }
         //     ]
         //
-        "generator-star-spacing": ["error"],
+        'generator-star-spacing': ['error'],
 
         // disallow reassigning class members
         //
-        "no-class-assign": ["error"],
+        'no-class-assign': ['error'],
 
         // disallow arrow functions where they could be confused with comparisons
         //
@@ -188,15 +188,15 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-confusing-arrow": ["error"],
+        'no-confusing-arrow': ['error'],
 
         // disallow reassigning `const` variables
         //
-        "no-const-assign": ["error"],
+        'no-const-assign': ['error'],
 
         // disallow duplicate class members
         //
-        "no-dupe-class-members": ["error"],
+        'no-dupe-class-members': ['error'],
 
         // disallow duplicate module imports
         //
@@ -214,31 +214,34 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-duplicate-imports": ["error", {
-            "includeExports": true
-        }],
+        'no-duplicate-imports': [
+            'error',
+            {
+                'includeExports': true
+            }
+        ],
 
         // disallow `new` operators with the `Symbol` object
         //
-        "no-new-symbol": ["error"],
+        'no-new-symbol': ['error'],
 
         // disallow specified modules when loaded by `import`
         //
-        "no-restricted-imports": ["off"],
+        'no-restricted-imports': ['off'],
 
         // disallow `this`/`super` before calling `super()` in constructors
         //
-        "no-this-before-super": ["error"],
+        'no-this-before-super': ['error'],
 
         // disallow unnecessary computed property keys in object literals
         //
         // [Has Fixer]
         //
-        "no-useless-computed-key": ["error"],
+        'no-useless-computed-key': ['error'],
 
         // disallow unnecessary constructors
         //
-        "no-useless-constructor": ["error"],
+        'no-useless-constructor': ['error'],
 
         // disallow renaming import, export, and destructured assignments to the same
         // name
@@ -265,19 +268,19 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-useless-rename": ["error"],
+        'no-useless-rename': ['error'],
 
         // require `let` or `const` instead of `var`
         //
         // [Has Fixer]
         //
-        "no-var": ["error"],
+        'no-var': ['error'],
 
         // require or disallow method and property shorthand syntax for object literals
         //
         // [Has Fixer]
         //
-        "object-shorthand": ["error", "never"],
+        'object-shorthand': ['error', 'never'],
 
         // require using arrow functions for callbacks
         //
@@ -300,10 +303,13 @@ module.exports = {
         //         }
         //     ]
         //
-        "prefer-arrow-callback": ["error", {
-            "allowNamedFunctions": true,
-            "allowUnboundThis": false
-        }],
+        'prefer-arrow-callback': [
+            'error',
+            {
+                'allowNamedFunctions': true,
+                'allowUnboundThis': false
+            }
+        ],
 
         // require `const` declarations for variables that are never reassigned after
         // declared
@@ -330,7 +336,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "prefer-const": ["error"],
+        'prefer-const': ['error'],
 
         // require destructuring from arrays and/or objects
         //
@@ -394,34 +400,34 @@ module.exports = {
         //         }
         //     ]
         //
-        "prefer-destructuring": ["off"],
+        'prefer-destructuring': ['off'],
 
         // disallow `parseInt()` and `Number.parseInt()` in favor of binary, octal, and
         // hexadecimal literals
         //
         // [Has Fixer]
         //
-        "prefer-numeric-literals": ["error"],
+        'prefer-numeric-literals': ['error'],
 
         // require rest parameters instead of `arguments`
         //
-        "prefer-rest-params": ["error"],
+        'prefer-rest-params': ['error'],
 
         // require spread operators instead of `.apply()`
         //
         // [Has Fixer]
         //
-        "prefer-spread": ["error"],
+        'prefer-spread': ['error'],
 
         // require template literals instead of string concatenation
         //
         // [Has Fixer]
         //
-        "prefer-template": ["error"],
+        'prefer-template': ['error'],
 
         // require generator functions to contain `yield`
         //
-        "require-yield": ["error"],
+        'require-yield': ['error'],
 
         // enforce spacing between rest and spread operators and their expressions
         //
@@ -438,7 +444,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "rest-spread-spacing": ["error"],
+        'rest-spread-spacing': ['error'],
 
         // enforce sorted import declarations within modules
         //
@@ -475,11 +481,11 @@ module.exports = {
         //         }
         //     ]
         //
-        "sort-imports": ["error"],
+        'sort-imports': ['error'],
 
         // require symbol descriptions
         //
-        "symbol-description": ["error"],
+        'symbol-description': ['error'],
 
         // require or disallow spacing around embedded expressions of template strings
         //
@@ -496,7 +502,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "template-curly-spacing": ["error"],
+        'template-curly-spacing': ['error'],
 
         // require or disallow spacing around the `*` in `yield*` expressions
         //
@@ -531,6 +537,6 @@ module.exports = {
         //         }
         //     ]
         //
-        "yield-star-spacing": ["error"]
+        'yield-star-spacing': ['error']
     }
 };

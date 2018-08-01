@@ -1,5 +1,5 @@
 module.exports = {
-    "rules": {
+    'rules': {
         // enforce getter and setter pairs in objects
         //
         // Schema:
@@ -19,15 +19,15 @@ module.exports = {
         //         }
         //     ]
         //
-        "accessor-pairs": ["error"],
+        'accessor-pairs': ['error'],
 
         // enforce `return` statements in callbacks of array methods
         //
-        "array-callback-return": ["off"],
+        'array-callback-return': ['off'],
 
         // enforce the use of variables within the scope they are defined
         //
-        "block-scoped-var": ["error"],
+        'block-scoped-var': ['error'],
 
         // enforce that class methods utilize `this`
         //
@@ -48,7 +48,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "class-methods-use-this": ["error"],
+        'class-methods-use-this': ['error'],
 
         // enforce a maximum cyclomatic complexity allowed in a program
         //
@@ -79,7 +79,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "complexity": ["error"],
+        'complexity': ['error'],
 
         // require `return` statements to either always or never specify values
         //
@@ -97,13 +97,13 @@ module.exports = {
         //         }
         //     ]
         //
-        "consistent-return": ["error"],
+        'consistent-return': ['error'],
 
         // enforce consistent brace style for all control statements
         //
         // [Has Fixer]
         //
-        "curly": ["error"],
+        'curly': ['error'],
 
         // require `default` cases in `switch` statements
         //
@@ -121,7 +121,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "default-case": ["error"],
+        'default-case': ['error'],
 
         // enforce consistent newlines before and after dots
         //
@@ -138,7 +138,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "dot-location": ["error", "property"],
+        'dot-location': ['error', 'property'],
 
         // enforce dot notation whenever possible
         //
@@ -161,34 +161,34 @@ module.exports = {
         //         }
         //     ]
         //
-        "dot-notation": ["error"],
+        'dot-notation': ['error'],
 
         // require the use of `===` and `!==`
         //
         // [Has Fixer]
         //
-        "eqeqeq": ["error"],
+        'eqeqeq': ['error'],
 
         // require `for-in` loops to include an `if` statement
         //
-        "guard-for-in": ["error"],
+        'guard-for-in': ['error'],
 
         // disallow the use of `alert`, `confirm`, and `prompt`
         //
-        "no-alert": ["error"],
+        'no-alert': ['error'],
 
         // disallow the use of `arguments.caller` or `arguments.callee`
         //
-        "no-caller": ["error"],
+        'no-caller': ['error'],
 
         // disallow lexical declarations in case clauses
         //
-        "no-case-declarations": ["error"],
+        'no-case-declarations': ['error'],
 
         // disallow division operators explicitly at the beginning of regular
         // expressions
         //
-        "no-div-regex": ["off"],
+        'no-div-regex': ['off'],
 
         // disallow `else` blocks after `return` statements in `if` statements
         //
@@ -208,7 +208,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-else-return": ["error"],
+        'no-else-return': ['error'],
 
         // disallow empty functions
         //
@@ -239,15 +239,15 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-empty-function": ["error"],
+        'no-empty-function': ['error'],
 
         // disallow empty destructuring patterns
         //
-        "no-empty-pattern": ["error"],
+        'no-empty-pattern': ['error'],
 
         // disallow `null` comparisons without type-checking operators
         //
-        "no-eq-null": ["error"],
+        'no-eq-null': ['error'],
 
         // disallow the use of `eval()`
         //
@@ -265,7 +265,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-eval": ["error"],
+        'no-eval': ['error'],
 
         // disallow extending native types
         //
@@ -287,19 +287,19 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-extend-native": ["error"],
+        'no-extend-native': ['error'],
 
         // disallow unnecessary calls to `.bind()`
         //
         // [Has Fixer]
         //
-        "no-extra-bind": ["error"],
+        'no-extra-bind': ['error'],
 
         // disallow unnecessary labels
         //
         // [Has Fixer]
         //
-        "no-extra-label": ["off"],
+        'no-extra-label': ['off'],
 
         // disallow fallthrough of `case` statements
         //
@@ -317,13 +317,13 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-fallthrough": ["error"],
+        'no-fallthrough': ['error'],
 
         // disallow leading or trailing decimal points in numeric literals
         //
         // [Has Fixer]
         //
-        "no-floating-decimal": ["error"],
+        'no-floating-decimal': ['error'],
 
         // disallow assignments to native objects or read-only global variables
         //
@@ -345,7 +345,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-global-assign": ["error"],
+        'no-global-assign': ['error'],
 
         // disallow shorthand type conversions
         //
@@ -383,23 +383,23 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-implicit-coercion": ["error"],
+        'no-implicit-coercion': ['error'],
 
         // disallow variable and `function` declarations in the global scope
         //
-        "no-implicit-globals": ["error"],
+        'no-implicit-globals': ['error'],
 
         // disallow the use of `eval()`-like methods
         //
-        "no-implied-eval": ["error"],
+        'no-implied-eval': ['error'],
 
         // disallow `this` keywords outside of classes or class-like objects
         //
-        "no-invalid-this": ["error"],
+        'no-invalid-this': ['error'],
 
         // disallow the use of the `__iterator__` property
         //
-        "no-iterator": ["error"],
+        'no-iterator': ['error'],
 
         // disallow labeled statements
         //
@@ -420,15 +420,15 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-labels": ["error"],
+        'no-labels': ['error'],
 
         // disallow unnecessary nested blocks
         //
-        "no-lone-blocks": ["error"],
+        'no-lone-blocks': ['error'],
 
         // disallow `function` declarations and expressions inside loop statements
         //
-        "no-loop-func": ["error"],
+        'no-loop-func': ['error'],
 
         // disallow magic numbers
         //
@@ -459,11 +459,19 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-magic-numbers": ["error", {
-            "ignore": [-1, 0, 1, 2],
-            "ignoreArrayIndexes": true,
-            "enforceConst": true
-        }],
+        'no-magic-numbers': [
+            'error',
+            {
+                'ignore': [
+                    -1,
+                    0,
+                    1,
+                    2
+                ],
+                'ignoreArrayIndexes': true,
+                'enforceConst': true
+            }
+        ],
 
         // disallow multiple spaces
         //
@@ -492,31 +500,31 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-multi-spaces": ["error"],
+        'no-multi-spaces': ['error'],
 
         // disallow multiline strings
         //
-        "no-multi-str": ["error"],
+        'no-multi-str': ['error'],
 
         // disallow `new` operators with the `Function` object
         //
-        "no-new-func": ["error"],
+        'no-new-func': ['error'],
 
         // disallow `new` operators with the `String`, `Number`, and `Boolean` objects
         //
-        "no-new-wrappers": ["error"],
+        'no-new-wrappers': ['error'],
 
         // disallow `new` operators outside of assignments or comparisons
         //
-        "no-new": ["error"],
+        'no-new': ['error'],
 
         // disallow octal escape sequences in string literals
         //
-        "no-octal-escape": ["error"],
+        'no-octal-escape': ['error'],
 
         // disallow octal literals
         //
-        "no-octal": ["error"],
+        'no-octal': ['error'],
 
         // disallow reassigning `function` parameters
         //
@@ -558,13 +566,16 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-param-reassign": ["error", {
-            "props": true
-        }],
+        'no-param-reassign': [
+            'error',
+            {
+                'props': true
+            }
+        ],
 
         // disallow the use of the `__proto__` property
         //
-        "no-proto": ["error"],
+        'no-proto': ['error'],
 
         // disallow variable redeclaration
         //
@@ -582,13 +593,16 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-redeclare": ["error", {
-            "builtinGlobals": true
-        }],
+        'no-redeclare': [
+            'error',
+            {
+                'builtinGlobals': true
+            }
+        ],
 
         // disallow certain properties on certain objects
         //
-        "no-restricted-properties": ["off"],
+        'no-restricted-properties': ['off'],
 
         // disallow assignment operators in `return` statements
         //
@@ -603,15 +617,15 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-return-assign": ["error", "always"],
+        'no-return-assign': ['error', 'always'],
 
         // disallow unnecessary `return await`
         //
-        "no-return-await": ["error"],
+        'no-return-await': ['error'],
 
         // disallow `javascript:` urls
         //
-        "no-script-url": ["error"],
+        'no-script-url': ['error'],
 
         // disallow assignments where both sides are exactly the same
         //
@@ -629,25 +643,28 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-self-assign": ["error", {
-            "props": true
-        }],
+        'no-self-assign': [
+            'error',
+            {
+                'props': true
+            }
+        ],
 
         // disallow comparisons where both sides are exactly the same
         //
-        "no-self-compare": ["error"],
+        'no-self-compare': ['error'],
 
         // disallow comma operators
         //
-        "no-sequences": ["error"],
+        'no-sequences': ['error'],
 
         // disallow throwing literals as exceptions
         //
-        "no-throw-literal": ["error"],
+        'no-throw-literal': ['error'],
 
         // disallow unmodified loop conditions
         //
-        "no-unmodified-loop-condition": ["error"],
+        'no-unmodified-loop-condition': ['error'],
 
         // disallow unused expressions
         //
@@ -671,35 +688,35 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-unused-expressions": ["error"],
+        'no-unused-expressions': ['error'],
 
         // disallow unused labels
         //
         // [Has Fixer]
         //
-        "no-unused-labels": ["off"],
+        'no-unused-labels': ['off'],
 
         // disallow unnecessary calls to `.call()` and `.apply()`
         //
-        "no-useless-call": ["off"],
+        'no-useless-call': ['off'],
 
         // disallow unnecessary concatenation of literals or template literals
         //
-        "no-useless-concat": ["error"],
+        'no-useless-concat': ['error'],
 
         // disallow unnecessary escape characters
         //
-        "no-useless-escape": ["error"],
+        'no-useless-escape': ['error'],
 
         // disallow redundant return statements
         //
         // [Has Fixer]
         //
-        "no-useless-return": ["error"],
+        'no-useless-return': ['error'],
 
         // disallow `void` operators
         //
-        "no-void": ["error"],
+        'no-void': ['error'],
 
         // disallow specified warning terms in comments
         //
@@ -726,11 +743,11 @@ module.exports = {
         //         }
         //     ]
         //
-        "no-warning-comments": ["error"],
+        'no-warning-comments': ['error'],
 
         // disallow `with` statements
         //
-        "no-with": ["error"],
+        'no-with': ['error'],
 
         // require using Error objects as Promise rejection reasons
         //
@@ -748,7 +765,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "prefer-promise-reject-errors": ["error"],
+        'prefer-promise-reject-errors': ['error'],
 
         // enforce the consistent use of the radix argument when using `parseInt()`
         //
@@ -763,15 +780,15 @@ module.exports = {
         //         }
         //     ]
         //
-        "radix": ["error"],
+        'radix': ['error'],
 
         // disallow async functions which have no `await` expression
         //
-        "require-await": ["error"],
+        'require-await': ['error'],
 
         // require `var` declarations be placed at the top of their containing scope
         //
-        "vars-on-top": ["off"],
+        'vars-on-top': ['off'],
 
         // require parentheses around immediate `function` invocations
         //
@@ -798,7 +815,7 @@ module.exports = {
         //         }
         //     ]
         //
-        "wrap-iife": ["error", "inside"],
+        'wrap-iife': ['error', 'inside'],
 
         // require or disallow "Yoda" conditions
         //
@@ -827,6 +844,6 @@ module.exports = {
         //         }
         //     ]
         //
-        "yoda": ["error"]
+        'yoda': ['error']
     }
 };

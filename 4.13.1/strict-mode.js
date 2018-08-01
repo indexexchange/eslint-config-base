@@ -1,5 +1,5 @@
 module.exports = {
-    "rules": {
+    'rules': {
         // require or disallow strict mode directives
         //
         // [Has Fixer]
@@ -17,6 +17,6 @@ module.exports = {
         //         }
         //     ]
         //
-        "strict": ["error", "global"]
+        'strict': ['error', 'global']
     }
 };
