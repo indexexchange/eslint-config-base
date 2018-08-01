@@ -4,7 +4,7 @@
   "description": "Index Exchange's base repository of ESLint runtime configuration files.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/indexexchange/eslint-config-base.git"
+    "url": "git+https://github.com/indexexchange/eslint-config-base.git"
   },
   "peerDependencies": {
     "eslint": ">= 4.13.1"
